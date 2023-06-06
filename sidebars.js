@@ -251,7 +251,6 @@ module.exports = {
         {
           "Out-of-the-box Connectors": [
             "components/connectors/out-of-the-box-connectors/available-connectors-overview",
-
             "components/connectors/out-of-the-box-connectors/asana",
             "components/connectors/out-of-the-box-connectors/automation-anywhere",
             {
@@ -260,6 +259,7 @@ module.exports = {
                 "components/connectors/out-of-the-box-connectors/aws-lambda",
                 "components/connectors/out-of-the-box-connectors/aws-sns",
                 "components/connectors/out-of-the-box-connectors/aws-sqs",
+                "components/connectors/out-of-the-box-connectors/aws-sqs-start-event",
               ],
             },
             "components/connectors/out-of-the-box-connectors/blueprism",
@@ -300,6 +300,7 @@ module.exports = {
             "components/connectors/protocol/rest",
             "components/connectors/protocol/graphql",
             "components/connectors/protocol/http-webhook",
+            "components/connectors/protocol/twilio-webhook",
           ],
         },
         "components/connectors/manage-connector-templates",
